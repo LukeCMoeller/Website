@@ -1,0 +1,13 @@
+{
+  "name": "Vue Dev Environment",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+  "postCreateCommand": "./.devcontainer/postCreateCommand.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Vue.volar",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+}
