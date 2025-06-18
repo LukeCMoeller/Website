@@ -11,7 +11,7 @@
         <a href="https://github.com/yourusername/weather-app" target="_blank">GitHub Link</a>
       </div>
     </section>
-
+ 
     <section class="project-entry">
       <img src="../assets/goomy.png" alt="Project 2 image" />
       <div class="project-info">
