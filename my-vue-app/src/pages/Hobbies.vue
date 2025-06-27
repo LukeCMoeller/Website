@@ -1,6 +1,9 @@
 <template>
   <div class="hobbies-container">
     <h1>My Hobbies</h1>
+
+    <!-- write seciton about intrests instead of passions-->
+    
     <p class="intro"> Here's some stuff I love doing in my free time:</p>
 
     <div class="hobby-list">

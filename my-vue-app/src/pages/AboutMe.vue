@@ -15,10 +15,20 @@
           <li><strong>Major:</strong> Computer Science</li>
           <li><strong>Location:</strong> IDK if i need</li>
         </ul>
+
+        <a
+          href="../public/Resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="resume-button"
+        >
+          📄 View My Resume
+        </a>
       </div>
     </div>
   </div>
 </template>
+
 
 <script>
 import profilePic from '../assets/portrat.jpg'
@@ -78,4 +88,20 @@ export default {
 .details-list li {
   margin: 0.3rem 0;
 }
+.resume-button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #4a90e2;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.resume-button:hover {
+  background-color: #357ab8;
+}
+
 </style>

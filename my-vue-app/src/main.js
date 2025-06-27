@@ -4,7 +4,6 @@ import router from './router'
 import PrimeVue  from 'primevue/config'
 import './components/Styles/Shared.css'
 
-
 import 'primevue/resources/themes/saga-purple/theme.css';
 import 'primevue/resources/primevue.min.css';
 import 'primeicons/primeicons.css';     

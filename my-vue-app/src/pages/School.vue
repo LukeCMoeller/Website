@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h2>Curriculum</h2>
+    <h1>Curriculum</h1>
     <div class="textbox">
       <strong>Education:</strong><br />
       B.A. in Computer Science Studies<br /><br />
