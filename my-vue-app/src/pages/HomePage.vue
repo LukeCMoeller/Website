@@ -1,8 +1,7 @@
 <template>
-  <div class="home-wrapper">
+  <div>
     <section class="intro">
       <h1>WE STAY HERE WINNING</h1>
-      <p class="tagline">fix the spacing and style here</p>
     </section>
 
     <section class="main-content">
@@ -48,52 +47,3 @@ export default {
 }
 </script>
 
-<style scoped>
-.home-wrapper {
-  padding: 2rem;
-  font-family: sans-serif;
-  background-color: #f9f9f9;
-}
-
-.intro {
-  text-align: center;
-}
-
-.tagline {
-  font-size: 1.2rem;
-  color: #777;
-}
-
-.main-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
-}
-
-.extra-sections {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
-  width: 100%;
-  max-width: 900px;
-}
-
-.card {
-  background: #fff;
-  padding: 1.5rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  text-align: center;
-}
-.card h3 {
-  margin-bottom: 0.8rem;
-}
-.card a {
-  color: #4a90e2;
-  text-decoration: none;
-}
-.card a:hover {
-  text-decoration: underline;
-}
-</style>

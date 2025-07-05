@@ -41,16 +41,17 @@ export default {
 </script>
 
 <style scoped>
+
 .project-entry {
   display: flex;
   align-items: flex-start;
   gap: 2rem;
   margin-bottom: 2.5rem;
   padding: 2rem;
-  border: 1px solid #ddd;
+  background-color: #ffffff;
   border-radius: 12px;
-  background-color: #fff;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #823ddd; 
   transition: box-shadow 0.3s ease;
 
   max-width: 700px;
@@ -58,13 +59,12 @@ export default {
   margin-right: auto;
 }
 
-
 .project-entry:hover {
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 6px 16px rgba(130, 61, 221, 0.4); /* subtle purple glow on hover */
 }
 
 .project-entry img {
-  width: 150px;  /* was 120px */
+  width: 150px;
   height: 150px;
   object-fit: cover;
   border-radius: 8px;
@@ -72,17 +72,24 @@ export default {
 
 .project-info h2 {
   margin-top: 0;
-  font-size: 1.5rem; /* was 1.3rem */
+  font-size: 1.5rem;
   margin-bottom: 0.75rem;
+  font-weight: 600;
+  color: #333;
 }
 
 .project-info p {
-  font-size: 1rem; /* was 0.95rem */
+  font-size: 1rem;
   color: #444;
   margin-bottom: 0.75rem;
 }
+
 .projects-header {
   max-width: 700px;
-  margin: 0 auto 2rem auto; /* centers it like the project cards */
+  margin: 0 auto 2rem auto;
+  text-align: center;
+  font-weight: 600;
+  color: #333;
 }
+
 </style>
