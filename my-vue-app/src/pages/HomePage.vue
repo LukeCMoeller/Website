@@ -1,9 +1,6 @@
 <template>
+  
   <div>
-    <section class="intro">
-      <h1>WE STAY HERE WINNING</h1>
-    </section>
-
     <section class="main-content">
 
       <ProfilePage />
@@ -13,18 +10,31 @@
         <div class="card">
           <h3>🚀 Projects</h3>
           <ul>
+            <li>Student Portal app – New student portal app for KSU made as a group project</li>
             <li>DMCCR – DMC color recommender</li>
             <li>Cookie Cicker – Video Game made in MonoGame</li>
-            <li>Student Portal app – explination</li>
           </ul>
         </div>
 
 
         <div class="card">
           <h3>🛠️ Skills</h3>
-          <p>stuff here like vue and stuff</p>
+          <p>C#, C, Python, Vue, HTML, Vue, Discord, Monogame. <br> Worked with Git, Monogame, GDOT, Visual Studio</p>
         </div>
-
+        <div class="card">
+          <h3>🎯 Interests</h3>
+          <ul>
+            <li>Game development</li>
+            <li>Embrodery</li>
+            <li>Video Games</li>
+            <li>Magic: The Gathering</li>
+            <li>Music</li>
+          </ul>
+        </div>
+              <div class="card">
+          <h3>🏫 Classes</h3>
+          <p>have not fully decided if i need this category here</p>>
+        </div>
 
         <div class="card">
           <h3>📬 Connect</h3>
@@ -34,6 +44,7 @@
       </div>
     </section>
   </div>
+  
 </template>
 
 <script>

@@ -1,14 +1,20 @@
 <template>
   <div class="projects-wrapper">
-        <div class="projects-header">
-      <h1>Projects</h1>
-    </div>
-
+    <br> <br> <br> <br> <br>
+    <section class="project-entry">
+      <img src="../assets/website.png" alt="Project 3 image" />
+      <div class="project-info">
+        <h2>Student Portal App</h2>
+        <p>A large group project worked on over the course of a year. this website was designed by my group at K-State to replace the old professional program application along with other addons</p>
+        <a href="https://github.com/LukeCMoeller/student-portal-Fall-2024" target="_blank">GitHub Repo</a>
+      </div>
+    </section>
+    
     <section class="project-entry">
       <img src="../assets/dmc.png" alt="Project 1 image" />
       <div class="project-info">
         <h2>DMCCR</h2>
-        <p>Program that takes in an image and uses the Euclidean distance formula to calculate the closest DMC or cross stitch fabric value. All dmc values and names are stored in a text file and imported upon opening. After conversion, the save button will give you a text file off all the DMC colors and names along with the converted image. </p>
+        <p>A program that takes in an image and uses the Euclidean distance formula to calculate the closest DMC or cross stitch fabric value. All dmc values and names are stored in a text file and imported upon opening. After conversion, the save button will give you a text file off all the DMC colors and names along with the converted image. </p>
         <a href="https://github.com/LukeCMoeller/DMCCR" target="_blank">GitHub Link</a>
       </div>
     </section>
@@ -17,19 +23,12 @@
       <img src="../assets/cookie.png" alt="Project 2 image" />
       <div class="project-info">
         <h2>Cookie Cicker</h2>
-        <p>A play on the game cookie clicker makign fun of the clicker genre. Every time you press the cookie your score goes up by 1. Once 10 seconds have passed a shoe drops. Now you must go down from whatever score you created to 0. Once opened the game loades from a file so progress cannot be reset unless that file is deleted.</p>
+        <p>A play on the game "Cookie Clicker" that makes fun of the clicker genre. Every time you press the cookie your score goes up by one. Once 10 seconds have passed a shoe drops. Upon clicking, you must go down from whatever score you created to 0. Once opened, the game loads from a file so that progress cannot be reset unless that file is deleted.</p>
         <a href="https://github.com/LukeCMoeller/Cookie-Clicker" target="_blank">GitHub Link</a>
       </div>
     </section>
 
-    <section class="project-entry">
-      <img src="../assets/website.png" alt="Project 3 image" />
-      <div class="project-info">
-        <h2>Student Portal App</h2>
-        <p>An website created as a group at K-State to replace the old professional program application along wiht other addons.</p>
-        <a href="https://github.com/LukeCMoeller/student-portal-Fall-2024" target="_blank">GitHub Repo</a>
-      </div>
-    </section>
+    
     
   </div>
 </template>

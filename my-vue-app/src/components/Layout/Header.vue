@@ -9,9 +9,9 @@
         <img :src="logo" alt="Logo" :class="styles.logo" style="height: 40px;" />
       </a>
       <div :class="styles.divider"></div>
-      <a href="https://www.celestegame.com/" :class="styles.noBackground">
-        <h2 :class="styles.headerTitle">My Awesome Website Name</h2>
-      </a>
+      <!--<a href="https://www.celestegame.com/" :class="styles.noBackground">-->
+        <h2 :class="styles.headerTitle">Luke Moeller - Computer Science</h2>
+      
     </div>
 
     <!-- Navbar -->
@@ -42,7 +42,7 @@ export default defineComponent({
     const items = computed(() => [
       { label: 'Home', route: '/home' },
       { label: 'Projects', route: '/Projects' },
-      { label: 'Curriculum', route: '/School' },
+      { label: 'Experience', route: '/School' },
     ]);
 
     return {
@@ -80,19 +80,5 @@ export default defineComponent({
   background-color: #823ddd !important;
   border-color: #823ddd !important;
   border-radius: 0 !important;
-}
-
-.p-menubar-root-list {
-  display: flex !important;
-  flex-direction: row !important;
-  background-color: #823ddd !important;
-  border-color: #823ddd !important;
-  border-radius: 0 !important;
-  margin-left: 0 !important;
-  padding-left: 0 !important;
-}
-
-.p-menubar-root-list > li {
-  flex: none !important;
 }
 </style>
